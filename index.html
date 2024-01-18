@@ -63,6 +63,22 @@
             bottom: 0;
             /*width: 100%;*/
         }
+
+        .container {
+              text-align: center; /* 가로 정렬을 위해 부모 요소에 text-align 사용 */
+            }
+        
+            .box {
+              display: inline-block; /* 인라인 블록 요소로 배치 */
+              width: 100px; /* 원하는 너비 설정 */
+              height: 100px; /* 원하는 높이 설정 */
+              margin: 10px; /* 각 상자 사이의 간격 설정 */
+              /*background-color: #3498db;  배경색 설정 */
+              color: #602060; /* 글자색 설정 */
+              text-align: center; /* 내부 텍스트 가로 정렬을 위해 사용 */
+              line-height: 100px; /* 세로 정렬을 위해 사용 */
+            }
+    
     </style>
 </head>
 <body>
@@ -92,6 +108,32 @@
 				</div>
 			</div>
 	</section>
+
+    <section>
+        <section id="newSection2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="box">
+                            <h2>PROFILE</h2><br>
+                            <p style="font-size:100%">Instargram</p>
+                            <a href="https://www.instagram.com/chaeble_cos/"> <!-- 새로운 섹션의 특정 링크 주소 입력 -->
+                                <img src="https://i.ibb.co/pfFc5WX/instagram-higumi.png" alt="instagram-higumi" style="max-width: 7%; height: auto;">
+                            </a>
+						    <!--hr class="star-primary"> -->
+                        </div>
+                        <div class="box">
+                            <p style="font-size:100%">Discord</p>
+                            <a href="https://discord.gg/kn9VF7zJWU"> <!-- 새로운 섹션의 특정 링크 주소 입력 -->
+                                <img src="https://i.ibb.co/hXYgqXK/Discord-new-2021.png" alt="Discord-new-2021" style="max-width: 7%; height: auto;" >
+                            </a>
+						    <!--hr class="star-primary"> -->
+                        </div>
+					</div>
+				</div>
+			</div>
+    </section>
+
 
     <footer>
         <p>&copy; 2024 Chaeble. All rights reserved.</p>
